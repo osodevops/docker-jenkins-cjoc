@@ -22,7 +22,7 @@ usage: |-
 
 # Example usage
 examples: |-
-  Follow this example using docker compose
+  Follow this example using docker compose to get up and running:
   ```yaml
       version: '2'
       services:
@@ -68,7 +68,7 @@ examples: |-
          links:
            - cjoc:cjoc
            - jenkins:jenkins
-  ```
+   ```
 
 related:
   - name: "Jenkins Slave Node running in Docker"
